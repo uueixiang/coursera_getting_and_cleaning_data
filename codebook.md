@@ -5,4 +5,74 @@ There are 68 variables in the tidyDataSet.
 
 Codebook: gives a description for each variable in the tidy dataset, along with the procedures used to generate that variable.
 
+\#    | Variables             | Description                                                             | Units
+------|-----------------------|-------------------------------------------------------------------------|-----------
+1     | subject               | volunteers ID                                                           | ID
+2     | activity              | activities of daily living                                              | nominal       
+3     | tBodyAcc-mean-X       | mean of the body accelerometer on the x-axis                            | time
+4     | tBodyAcc-mean-Y       | mean of the body accelerometer on the y-axis                            | time       
+5     | tBodyAcc-mean-Z       | mean of the body accelerometer on the z-axis                            | time
+6     | tBodyAcc-std-X        | standard deviation of the body accelerometer on the x-axis              | time
+7     | tBodyAcc-std-Y        | standard deviation of the body accelerometer on the y-axis              | time
+8     | tBodyAcc-std-Z        | standard deviation of the body accelerometer on the z-axis              | time       
+9     | tGravityAcc-mean-X    | mean of the gravity accelerometer on the x-axis                         | time
+10    | tGravityAcc-mean-Y    | mean of the gravity accelerometer on the y-axis                         | time   
+11    | tGravityAcc-mean-Z    | mean of the gravity accelerometer on the z-axis                         | time
+12    | tGravityAcc-std-X     | standard deviation of the gravity accelerometer on the x-axis           | time   
+13    | tGravityAcc-std-Y     | standard deviation of the gravity accelerometer on the y-axis           | time
+14    | tGravityAcc-std-Z     | standard deviation of the gravity accelerometer on the z-axis           | time   
+15    | tBodyAccJerk-mean-X   | mean of the jerk signals body accelerometer on the x-axis               | time      
+16    | tBodyAccJerk-mean-Y   | mean of the jerk signals body accelerometer on the y-axis               | time     
+17    | tBodyAccJerk-mean-Z   | mean of the jerk signals body accelerometer on the z-axis               | time     
+18    | tBodyAccJerk-std-X    | standard deviation of the jerk signals body accelerometer on the x-axis | time     
+19    | tBodyAccJerk-std-Y    | standard deviation of the jerk signals body accelerometer on the y-axis | time     
+20    | tBodyAccJerk-std-Z    | standard deviation of the jerk signals body accelerometer on the z-axis | time     
+21    | tBodyGyro-mean-X      | mean of the body gyroscope on the x-axis                                | time     
+22    | tBodyGyro-mean-Y      | mean of the body gyroscope on the y-axis                                | time     
+23    | tBodyGyro-mean-Z      | mean of the body gyroscope on the z-axis                                | time     
+24    | tBodyGyro-std-X       | standard deviation of the body gyroscope on the x-axis                  | time     
+25    | tBodyGyro-std-Y       | standard deviation of the body gyroscope on the y-axis                  | time     
+26    | tBodyGyro-std-Z       | standard deviation of the body gyroscope on the z-axis                  | time     
+27    | tBodyGyroJerk-mean-X  | mean of the jerk signals body gyroscope on the x-axis                   | time   
+28    | tBodyGyroJerk-mean-Y  | mean of the jerk signals body gyroscope on the y-axis                   | time   
+29    | tBodyGyroJerk-mean-Z  | mean of the jerk signals body gyroscope on the z-axis                   | time   
+30    | tBodyGyroJerk-std-X   | standard deviation of the jerk signals body gyroscope on the x-axis     | time   
+31    | tBodyGyroJerk-std-Y   | standard deviation of the jerk signals body gyroscope on the y-axis     | time   
+32    | tBodyGyroJerk-std-Z   | standard deviation of the jerk signals body gyroscope on the z-axis     | time   
+33    | tBodyAccMag-mean      | mean of the body accelerometer magnitude                                | time   
+34    | tBodyAccMag-std       | standard deviation of the body accelerometer magnitude                  | time   
+35    | tGravityAccMag-mean   | mean of the gravity accelerometer magnitude                             | time  
+36    | tGravityAccMag-std    | standard deviation of the gravity accelerometer magnitude               | time   
+37    | tBodyAccJerkMag-mean  | mean of the jerk signals body accelerometer magnitude                   | time   
+38    | tBodyAccJerkMag-std   | standard deviation of the jerk signals body accelerometer magnitude     | time   
+39    | tBodyGyroMag-mean     | mean of the body gyroscope magnitude                                    | time   
+40    | tBodyGyroMag-std      | standard deviation of the body gyroscope magnitude                      | time  
+41    | tBodyGyroJerkMag-mean | mean of the jerk signals body gyroscope magnitude                       | time   
+42    | tBodyGyroJerkMag-std  | standard deviation of the jerk signals body gyroscope magnitude         | time   
+43    | fBodyAcc-mean-X       | mean of the body accelerometer on the x-axis                            | freq domain signal
+44    | fBodyAcc-mean-Y       | mean of the body accelerometer on the y-axis                            | freq domain signal
+45    | fBodyAcc-mean-Z       | mean of the body accelerometer on the z-axis                            | freq domain signal 
+46    | fBodyAcc-std-X        | standard deviation of the body accelerometer on the x-axis              | freq domain signal
+47    | fBodyAcc-std-Y        | standard deviation of the body accelerometer on the y-axis              | freq domain signal
+48    | fBodyAcc-std-Z        | standard deviation of the body accelerometer on the z-axis              | freq domain signal
+49    | fBodyAccJerk-mean-X   | mean of the jerk signals body accelerometer on the x-axis               | freq domain signal
+50    | fBodyAccJerk-mean-Y   | mean of the jerk signals body accelerometer on the y-axis               | freq domain signal
+51    | fBodyAccJerk-mean-Z   | mean of the jerk signals body accelerometer on the z-axis               | freq domain signal
+52    | fBodyAccJerk-std-X    | standard deviation of the jerk signals body accelerometer on the x-axis | freq domain signal
+53    | fBodyAccJerk-std-Y    | standard deviation of the jerk signals body accelerometer on the y-axis | freq domain signal
+54    | fBodyAccJerk-std-Z    | standard deviation of the jerk signals body accelerometer on the z-axis | freq domain signal
+55    | fBodyGyro-mean-X      | mean of the body gyroscope on the x-axis                                | freq domain signal
+56    | fBodyGyro-mean-Y      | mean of the body gyroscope on the y-axis                                | freq domain signal
+57    | fBodyGyro-mean-Z      | mean of the body gyroscope on the z-axis                                | freq domain signal
+58    | fBodyGyro-std-X       | standard deviation of the body gyroscope on the x-axis                  | freq domain signal
+59    | fBodyGyro-std-Y       | standard deviation of the body gyroscope on the y-axis                  | freq domain signal
+60    | fBodyGyro-std-Z       | standard deviation of the body gyroscope on the z-axis                  | freq domain signal
+61    | fBodyAccMag-mean      | mean of the body accelerometer magnitude                                | freq domain signal
+62    | fBodyAccMag-std       | standard deviation of the body accelerometer magnitude                  | freq domain signal
+63    | fBodyBodyAccJerkMag-mean | mean of the jerk signals body accelerometer magnitude                | freq domain signal
+64    | fBodyBodyAccJerkMag-std  | standard deviation of the jerk signals body accelerometer magnitude  | freq domain signal
+65    | fBodyBodyGyroMag-mean    | mean of the body gyroscope magnitude                                 | freq domain signal
+66    | fBodyBodyGyroMag-std     | standard deviation of the body gyroscope magnitude                   | freq domain signal
+67    | fBodyBodyGyroJerkMag-mean| mean of the jerk signals body gyroscope magnitude                    | freq domain signal
+68    | fBodyBodyGyroJerkMag-std | standard deviation of the jerk signals body gyroscope magnitude      | freq domain signal
 
